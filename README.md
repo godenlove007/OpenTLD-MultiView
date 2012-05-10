@@ -1,3 +1,13 @@
+Multi-View OpenTLD
+==================
+
+This is an extension of Georg Nebehay's open-source implementation of Zdenek Kalal's Tracking-Learning-Detection algorithm.
+The purpose of this extension is to add the ability to simultaneously apply a single detector across N camera views, with an
+independent tracker for each view, additinally making use of known camera properties (pose, plus extrinsic and intrinsic properties)
+to improve tracker accuracy via epipolar triangulation.
+
+Georg Nebehay's original OpenTLD introduction at time of fork continues below:
+
  Introduction
 ==============
 
